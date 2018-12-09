@@ -1,5 +1,6 @@
-# By Anthony Layton
+# By Anthony Layton (Tony Layton)
 # 2018-12-10
+#
 from DB_connect_common import *
 import json
 from pprint import pprint
@@ -30,12 +31,10 @@ from nltk.sentiment.util import *
 from pprint import pprint
 
 
-
-
-auth = {"consumer_key": "Ww2yj9Nuy5z4X5SSb6VOTwXtO",
-        "consumer_secret": "RX7nF6UnqhRBvBeay7d1K0QYB4BhW4B4AuICSull3e4yl9EXyR",
-        "access_key": "373302315-lhwpEmFIQpkRNmODGoD5uR4se6plvP4loiEEDtJs",
-        "access_secret": "twruSjAfrhlkPLBE3Rgmr3odz9Ew7hrLwvtKKCAu2Cayv"
+auth = {"consumer_key": "",
+        "consumer_secret": "",
+        "access_key": "",
+        "access_secret": "",
         }
 
 consumer_key = auth["consumer_key"]
